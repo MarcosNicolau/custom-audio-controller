@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <div class="controller">
+            <div>
+                <p class="current-duration">0:00</p>
+                <input type="range" min="0" class="range" value="0" />
+                <p class="total-duration">0:00</p>
+            </div>
+
+            <div>
+                <img src="./assets/next-back.svg" alt="back-song" class="back" />
+                <img src="./assets/play.svg" alt="back-song" class="play-pause" />
+                <img src="./assets/next-back.svg" alt="next song" class="next" />
+            </div>
+        </div>
+        <audio src="./audio/ncs.mp3"></audio>
+        <script src="./index.js"></script>
+    </body>
+</html>

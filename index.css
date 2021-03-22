@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(75, 75, 75);
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0 0.5em;
+}
+
+.controller {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em 0;
+    background-color: rgb(32, 32, 32);
+    gap: 2em;
+}
+
+.controller div {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.controller img {
+    cursor: pointer;
+    height: 3em;
+    margin: 0 0.5em;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+input[type='range'] {
+    width: 30em;
+}
